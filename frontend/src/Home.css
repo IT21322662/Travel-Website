@@ -1,0 +1,160 @@
+/* General Home Styles */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Background Image */
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url('./images/bg1.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Overlay Text */
+.overlay-text {
+    padding: 20px 40px 20px 20px;
+    border-radius: 8px;
+    text-align: left;
+    color: white;
+    font-size: 44px;
+}
+
+/* Heading Styles */
+.overlay-text h1 {
+    font-size: 44px;
+    font-family: 'Source Serif Pro';
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+}
+
+
+
+/* Highlighting 'unwind' */
+.overlay-text h1 .highlight {
+    color: #1bb580;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Paragraph Text Styling */
+.overlay-text p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    line-height: 28px;
+    width: 544px;
+}
+
+/* Rating Wrapper */
+.rating-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* User Rating */
+.user-rating {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Circle for User Faces */
+.face-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #1bb580; /* Green background */
+    border-radius: 50%; /* Makes the div circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Face Circle Image */
+.face-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fits well within the circle */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+/* Trustpilot Rating Section */
+.trust-rating {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Trustpilot Rating Text */
+.trust-text {
+    color: #f8faf9;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+/* Stars Section */
+.stars {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+/* Star Styling */
+.star {
+    color: #16a074; /* Green color for the stars */
+}
+
+.star.square {
+    background-color: #1bb580; /* Green color for the square */
+    color: white; /* White color for the star */
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Rating Text */
+.rating {
+    font-size: 16px;
+    color: #f5f7f6;
+}
+
+/* Card Fields */
+.card-field {
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.card-field input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Find Button */
+.find-button {
+    background-color: #1bb580;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.find-button:hover {
+    background-color: #16a074;
+}
