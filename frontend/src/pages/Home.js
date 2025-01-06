@@ -18,7 +18,7 @@ const Home = () => {
 
                     <Typography
                         sx={{
-                            marginTop:"40px",
+                            marginTop: "40px",
                             fontWeight: 'bold',
                             fontSize: "44px !important", // Add !important
                             fontFamily: "Source Serif Pro  !important",
@@ -37,8 +37,8 @@ const Home = () => {
                             unwind
                         </span>
                     </Typography>
-                  
-                    <Typography sx={{fontFamily:"Poppins", marginTop:"10px" , fontSize:"16"}}>
+
+                    <Typography sx={{ fontFamily: "Poppins", marginTop: "10px", fontSize: "16" }}>
                         Welcome to our cozy cabin nestled in the heart of the mountains!
                     </Typography>
                     <Typography>
@@ -100,13 +100,16 @@ const Home = () => {
                     >
                         <Grid item xs={2.4}>
                             <TextField
+                                label="I want to go"
                                 required
                                 id="outlined-required"
-                                defaultValue="I want to go"
+
+
                                 sx={{
                                     width: '100%',
                                     maxWidth: '300px',
-                                    mt: 1,
+                                    mt: 0,
+
                                 }}
                             />
                         </Grid>
@@ -124,17 +127,17 @@ const Home = () => {
                             <TextField
                                 required
                                 id="outlined-required"
-                                defaultValue="2 guests"
+                                label="Travellers"
                                 sx={{
                                     width: '100%',
                                     maxWidth: '300px',
-                                    mt: 1,
+                                    mt: 0,
                                 }}
                             />
                         </Grid>
                         <Grid item xs={2.4}>
                             <Button
-                                sx={{ mt: 1 }}
+                                sx={{ mt: 0 }}
                                 variant="contained"
                                 style={{
                                     width: '200px',
