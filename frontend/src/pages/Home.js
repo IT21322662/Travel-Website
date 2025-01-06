@@ -137,7 +137,12 @@ const Home = () => {
                         </Grid>
                         <Grid item xs={2.4}>
                             <Button
-                                sx={{ mt: 0 }}
+                                sx={{
+                                    mt: 0,
+                                    "&:hover": {
+                                        backgroundColor: "white"
+                                    },
+                                }}
                                 variant="contained"
                                 style={{
                                     width: '200px',
