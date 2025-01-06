@@ -21,6 +21,7 @@ const AboutUs = () => {
               fontWeight: "bold",
               marginBottom: 2,
               textAlign: "left",
+               marginLeft:"20px"
             }}
           >
             About Us
@@ -30,6 +31,7 @@ const AboutUs = () => {
             sx={{
               lineHeight: "1.6",
               textAlign: "left",
+              marginLeft:"20px"
             }}
           >
             Our Story

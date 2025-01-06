@@ -18,6 +18,7 @@ const Home = () => {
 
                     <Typography
                         sx={{
+                            textAlign:"left",
                             marginTop: "40px",
                             fontWeight: 'bold',
                             fontSize: "44px !important", // Add !important
